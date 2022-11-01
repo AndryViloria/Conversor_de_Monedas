@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Open+Sans&family=Permanent+Marker&family=Roboto:wght@300&family=Rubik+Moonrocks&family=Splash&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2666f7d089.js" crossorigin="anonymous"></script>
+    <title>Conversor de Monedas Nacional</title>
+</head>
+
+<body>
+    <h1>Conversor de Monedas Nacional</h1>
+
+    <main>
+        <div>
+            <h2>Pesos CLP</h2>
+            <input id="clp" type="text" placeholder="Ingrese el monto en Pesos CLP" />
+
+            <h4>Moneda a convertir :</h4>
+            <select id="moneda">
+                <option value="dolar">Dólar</option>
+                <option value="euro">Euro</option>
+            </select>
+
+            <h4></h4>
+            <button id="btn">Buscar</button>
+
+            <p id="resultado"></p>
+
+            <div id="chart"></div>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
